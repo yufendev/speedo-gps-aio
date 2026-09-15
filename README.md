@@ -37,21 +37,6 @@
 
 ---
 
-## 📌 Pinout & Konfigurasi Hardware (ESP32 DevKit 30 Pin)
-
-| Komponen / Sinyal | Pin ESP32 | Keterangan Rangkaian |
-| :--- | :--- | :--- |
-| **TFT Data D0 - D7** | **GPIO 12, 13, 26, 25, 17, 5, 27, 14** | Bus Data 8-Bit Paralel |
-| **TFT Kontrol (CS / DC / WR / RST)** | **GPIO 15, 2, 4, 16** | Jalur Kontrol Layar LCD (RD ke 3.3V) |
-| **GPS UART (RX / TX)** | **GPIO 33 / GPIO 32** | Terhubung ke TX / RX Modul Ublox GPS |
-| **NeoPixel DIN** | **GPIO 19** | Data LED WS2812B 8-Pixel |
-| **Tombol Navigasi** | **GPIO 21** | Tombol Sentuh TTP223 (Active HIGH) |
-| **Pulsa RPM** | **GPIO 35** | Input pulser pengapian via rangkaian isolasi |
-| **Indikator Netral** | **GPIO 22** | Input isolasi Optocoupler PC817 |
-| **Indikator Sein Kiri** | **GPIO 23** | Input isolasi Optocoupler PC817 |
-| **Indikator Sein Kanan** | **GPIO 18** | Input isolasi Optocoupler PC817 |
-
----
 
 ## ☁️ Panduan Update Firmware Online (OTA)
 
@@ -95,3 +80,4 @@ File binary firmware dapat diunduh manual untuk flashing via USB cable (mengguna
   <b>NotFound Workshop &copy; 2026. All Rights Reserved.</b><br/>
   <i>Engineered for Racers & Motorcycle Enthusiasts.</i>
 </p>
+
